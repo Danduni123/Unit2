@@ -2,8 +2,14 @@
 y = float(3.2)
 print(x,y) """
 
-values = [1,2.23,5,7,2,30,15]
+""" values = [1,2.23,5,7,2,30,15]
 print(values)
 for i in values:
-    print(i)
+    print(i) """
+
+rain = False
+if rain == True:
+    print("Bring umbrella")
+else:
+    print("No umbrella")
 
