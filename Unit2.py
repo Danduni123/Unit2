@@ -60,6 +60,32 @@ else:
     print(f"Your total is ${total}")
 calculator() """
 
-sentence = input("Type your sentence here")
+""" sentence = input("Type your sentence here")
 y = sentence.split()
-print(len(y))
+print(len(y)) """
+
+""" def oddeven():
+    number = int(input("Enter a Number"))
+    if number % 2 == 0:
+        print(f'The number {number} is even')
+    else:
+        print(f'Your number {number} is odd')
+oddeven() """
+
+def billcalculator():
+    bill = float(input("how much was the bill?"))
+    service = input("How was the service today? (bad okay good great)")
+    if service == "bad":
+        bill = (bill + 0)
+        print((f"Your total is {bill}"))
+    elif service == "okay":
+        bill = (bill * 1.15)
+        print((f"Your total is {bill}"))
+    elif service == "good":
+        bill = (bill * 1.20)
+        print((f"Your total is {bill}"))
+    elif service == "great":
+        bill = (bill * 1.25)
+        print((f"Your total is {bill}"))
+billcalculator()
+
