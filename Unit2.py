@@ -72,7 +72,7 @@ print(len(y)) """
         print(f'Your number {number} is odd')
 oddeven() """
 
-def billcalculator():
+""" def billcalculator():
     bill = float(input("how much was the bill?"))
     service = input("How was the service today? (bad okay good great)")
     if service == "bad":
@@ -87,5 +87,18 @@ def billcalculator():
     elif service == "great":
         bill = (bill * 1.25)
         print((f"Your total is {bill}"))
-billcalculator()
+billcalculator() """
 
+""" def factors():
+    factorlist = []
+    x = int(input("Enter a number"))
+    for i in range (1, x+1):
+        if x % i == 0:
+            factorlist.append(i)
+    print(factorlist)
+
+factors() """
+
+def factor():
+    factorlist = []
+    x = int(input("Enter a number"))
