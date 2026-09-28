@@ -99,6 +99,14 @@ billcalculator() """
 
 factors() """
 
-def factor():
-    factorlist = []
+def commonfactors():
+    gcf = []
     x = int(input("Enter a number"))
+    y = int(input("Enter another number"))
+    factors = []
+    for i in range(1, x+1):
+        if x % i == 0 and y % i == 0:
+            factors.append(i)
+    print(factors)
+    print(factors[-1])
+commonfactors()
