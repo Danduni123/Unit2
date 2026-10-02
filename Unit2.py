@@ -99,7 +99,7 @@ billcalculator() """
 
 factors() """
 
-def commonfactors():
+""" def commonfactors():
     gcf = []
     x = int(input("Enter a number"))
     y = int(input("Enter another number"))
@@ -109,4 +109,4 @@ def commonfactors():
             factors.append(i)
     print(factors)
     print(factors[-1])
-commonfactors()
+commonfactors() """
